@@ -1,0 +1,51 @@
+li.dev-item {
+    background-color: #fff;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+}
+
+li.dev-item header {
+    display: flex;
+    align-items: center;
+}
+
+li.dev-item header img {
+    width: 5.8rem;
+    height: 5.8rem;
+    border-radius: 50%;
+}
+
+li.dev-item header .user-info {
+    margin-left: 1rem;
+}
+
+.user-info strong {
+    display: block;
+    font-size: 1.6rem;
+    color: #333;
+}
+
+.user-info span {
+    font-size: 1.3rem;
+    color: #999;
+    margin-top: 2px;
+}
+
+li.dev-item p {
+    columns: #666;
+    font-size: 1.4rem;
+    line-height: 20px;
+    margin: 1rem 0;
+}
+
+li.dev-item a {
+    color: #8e4dff;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+li.dev-item a:hover {
+    border-bottom: 1px solid #261149;
+    cursor: pointer;
+}

@@ -1,0 +1,27 @@
+.app {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 6rem 3rem;
+
+    display: flex;
+    align-items: flex-start;
+}
+
+.app main {
+    margin-left: 3rem;
+}
+
+@media (max-width: 65.625em) {
+    .app {
+        flex-direction: column;
+    }
+
+    .app main {
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+
+    .app aside {
+        width: 100%;
+    }
+}
