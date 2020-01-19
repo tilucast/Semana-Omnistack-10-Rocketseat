@@ -41,7 +41,7 @@ yarn start
 
 Uma página vai abrir no seu navegador, e a partir desta , poderá cadastrar usuários do **Github** válidos !
 
-<img src="images/web" align="center"></img>
+<img src="images/web.png" align="center"></img>
 
 =======================================================================================
 
@@ -62,13 +62,13 @@ yarn start
 
 A interface do **Expo** irá abrir em seu navegador, e nela você encontrará informações como seu endereço, e as opções para rodar em seu emulador, fora o QR Code, para rodar no seu celular:
 
-<img src="images/expo_interface" align="center"></img>
+<img src="images/expo_interface.png" align="center"></img>
 
 Clique na opção correspondente ao seu emulador, e caso esteja usando o celular, abra o app e escaneie o QR Code, e o app irá abrir no seu dispositivo.
 
 _O app está configurado para achar devs cadastrados a no máximo 10km de distância. Você pode alterar essa configuração na função **findConnections(), na pasta src/websocket.js** e na função **async index, na pasta src/controllers/SearchController.js**_
 
-<img src="images/mobile" align="center"></img>
+<img src="images/mobile.png" align="center"></img>
 
 =======================================================================================
 
@@ -82,7 +82,7 @@ Baixe o Insomnia no link acima, e importe as configurações.
 
 O resultado será esse após esse processo:
 
-<img src="images/insomnia" align="center"></img>
+<img src="images/insomnia.png" align="center"></img>
 
 =======================================================================================
 
